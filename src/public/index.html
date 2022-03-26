@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <script src="/socket.io/socket.io.js"></script>
+    <link rel="stylesheet" href="app.css">
+    <title>chat app</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="wrapper">
+            <h1 class="head">Chat app</h1> 
+            <h4 id="name"></h4>
+            <div id="list"></div>
+
+            <form class="form">
+                <input class="input" type="text" placeholder="message">
+                <button class="btn" type="submit" ><i class='bx bxs-chevrons-right'></i></button>
+            </form>  
+            </div> <!--end of wrapper-->
+        </div> <!--end of container-->
+    </section> <!--end of section-->
+
+    <script src="./app.js"></script>
+</body>
+</html>
